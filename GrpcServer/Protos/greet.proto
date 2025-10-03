@@ -11,6 +11,8 @@ service Greeter {
 service Calculator {
   rpc Add (ArithmeticRequest) returns (ArithmeticResponse);
   rpc Substract(ArithmeticRequest) returns (ArithmeticResponse);
+  rpc Multiply(ArithmeticRequest) returns (ArithmeticResponse);
+  rpc Devided(ArithmeticRequest) returns (ArithmeticResponse);
 }
 
 message HelloRequest {

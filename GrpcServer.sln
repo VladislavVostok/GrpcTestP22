@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcServer", "GrpcServer\GrpcServer.csproj", "{37334BE7-0F6F-48CC-9E08-E757BC15BAF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcServer", "GrpcServer\GrpcServer.csproj", "{37334BE7-0F6F-48CC-9E08-E757BC15BAF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcClient", "GrpcClient\GrpcClient.csproj", "{957B5BA7-401E-420D-8BBD-827FE04BBFCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcClient", "GrpcClient\GrpcClient.csproj", "{957B5BA7-401E-420D-8BBD-827FE04BBFCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcChatServer", "GrpcChatServer\GrpcChatServer.csproj", "{E5A01B71-A1B8-4932-BA91-644FBA03E787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcChatClient", "GrpcChatClient\GrpcChatClient.csproj", "{11956582-886C-4CDC-A69E-C421F61631CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{957B5BA7-401E-420D-8BBD-827FE04BBFCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{957B5BA7-401E-420D-8BBD-827FE04BBFCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{957B5BA7-401E-420D-8BBD-827FE04BBFCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5A01B71-A1B8-4932-BA91-644FBA03E787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5A01B71-A1B8-4932-BA91-644FBA03E787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5A01B71-A1B8-4932-BA91-644FBA03E787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5A01B71-A1B8-4932-BA91-644FBA03E787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11956582-886C-4CDC-A69E-C421F61631CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11956582-886C-4CDC-A69E-C421F61631CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11956582-886C-4CDC-A69E-C421F61631CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11956582-886C-4CDC-A69E-C421F61631CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
